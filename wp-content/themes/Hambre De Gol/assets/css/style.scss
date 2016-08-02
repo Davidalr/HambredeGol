@@ -31,21 +31,24 @@ body {
 }
 
 .goal {
-  max-width: 60%;
+  max-width: 59%;
   vertical-align: top;
 }
 
 .form {
-  max-width: 39%;
+  max-width: 29%;
 }
 
 
 
 .content {
-  max-width: 800px;
-   margin: auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
+.wpcf7-form input, .wpcf7-form textarea {
+  max-width: 100%;
+}
 .space {
   position: absolute;
   width: 400vw;
