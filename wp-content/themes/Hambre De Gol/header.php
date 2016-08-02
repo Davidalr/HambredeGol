@@ -21,8 +21,23 @@
 <body <?php body_class(); ?> data-urlBody="<?php bloginfo('url') ?>">
 <main>
     <header >
+
+
         <div class='space'></div>
 
+        <div class="content">
+
+           <div class="goal">
+
+             <figure>
+                 <a href="<?php bloginfo('url') ?>"><img src="<?php  bloginfo('template_url') ?>/assets/images/hambregol.png" alt=""></a>
+             </figure>
+            </div>
+
+            <div class="form">
+               <?php echo do_shortcode("[contact-form-7 id=\"10\" title=\"contact\"]"); ?>
+            </div>
+        </div>
 
     </header>
 

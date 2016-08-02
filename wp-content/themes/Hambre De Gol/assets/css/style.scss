@@ -26,7 +26,25 @@ body {
   height: 100%;
 }
 
+.goal,.form {
+  display: inline-block;
+}
 
+.goal {
+  max-width: 60%;
+  vertical-align: top;
+}
+
+.form {
+  max-width: 39%;
+}
+
+
+
+.content {
+  max-width: 800px;
+   margin: auto;
+}
 
 .space {
   position: absolute;
