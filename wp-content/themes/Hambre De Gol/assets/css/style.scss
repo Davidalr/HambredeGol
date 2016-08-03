@@ -37,8 +37,8 @@ body {
 
 .form {
   max-width: 29%;
+  color: #fff;
 }
-
 
 
 .content {
@@ -48,7 +48,17 @@ body {
 
 .wpcf7-form input, .wpcf7-form textarea {
   max-width: 100%;
+  color:#FFFFFF;
+  border-radius: 5px;
 }
+
+
+
+.logo{
+  margin: auto;
+  width: 100px;
+}
+
 .space {
   position: absolute;
   width: 400vw;

@@ -22,7 +22,11 @@
 <main>
     <header >
 
-
+      <div class="logo">
+        <figure >
+            <a href="<?php bloginfo('url') ?>"><img src="<?php  bloginfo('template_url') ?>/assets/images/logo.jpg" alt=""></a>
+        </figure>
+      ></div>
         <div class='space'></div>
 
         <div class="content">
